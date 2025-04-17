@@ -26,3 +26,19 @@ Rate Limiting: max 150 requests/min (429 + yellow toast).
 Structured Logging: Pino with X-Request-Id, ignores OPTIONS.
 
 Bulk Import: POST /markers/batch bypasses simulated failures.
+
+Examples:
+Web
+![image](https://github.com/user-attachments/assets/9eacb325-be6d-4d8a-b645-1db6a0434b46)
+
+Rate Limiter
+p.s kebabs in Turkey
+![image](https://github.com/user-attachments/assets/a0869a91-e89c-40f8-9928-b73ac0ccdb62)
+
+Mobile
+![image](https://github.com/user-attachments/assets/2a1cf9e3-b393-403a-82a6-c93b04bd2a25)
+
+![image](https://github.com/user-attachments/assets/55cf42d5-da92-4f26-a251-5ceee2e36998)
+
+
+
