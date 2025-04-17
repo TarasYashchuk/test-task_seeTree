@@ -36,7 +36,9 @@ p.s kebabs in Turkey
 ![image](https://github.com/user-attachments/assets/a0869a91-e89c-40f8-9928-b73ac0ccdb62)
 
 Mobile
+
 ![image](https://github.com/user-attachments/assets/2a1cf9e3-b393-403a-82a6-c93b04bd2a25)
+
 
 ![image](https://github.com/user-attachments/assets/55cf42d5-da92-4f26-a251-5ceee2e36998)
 
