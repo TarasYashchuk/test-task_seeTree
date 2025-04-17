@@ -21,9 +21,7 @@ Rate Limit (429): yellow background
 Highlights
 Simulated Failures: every 3rd write request returns HTTP 503.
 
-Rate Limiting: max 150 requests/min (429 + yellow toast).
-
-Structured Logging: Pino with X-Request-Id, ignores OPTIONS.
+Rate Limiting: max 50 requests/min (429 + yellow toast).
 
 Bulk Import: POST /markers/batch bypasses simulated failures.
 
