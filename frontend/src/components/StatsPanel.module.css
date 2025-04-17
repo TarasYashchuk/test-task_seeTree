@@ -9,15 +9,27 @@
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+
   font-size: 0.875rem;
   line-height: 1.4;
-  z-index: 10;
-  overflow: auto;
   color: #333;
+  overflow: auto;
+  z-index: 10;
 }
 
 .stat {
   margin: 0.35rem 0;
   white-space: nowrap;
   font-weight: 500;
+}
+
+@media (max-width: 480px) {
+  .container {
+    top: auto;
+    bottom: 6rem;
+    right: 0.5rem;
+    max-width: 80px;
+    font-size: 0.75rem;
+    padding: 0.5rem;
+  }
 }

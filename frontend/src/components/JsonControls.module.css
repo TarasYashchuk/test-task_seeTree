@@ -1,15 +1,28 @@
 .container {
   position: absolute;
   bottom: 1rem;
-  left: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
   background: #ffffff;
   padding: 0.75rem;
   border-radius: 0.5rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+
   display: flex;
   gap: 0.5rem;
   align-items: center;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  max-width: 90vw;
   z-index: 10;
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}
+.container {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 .button {
@@ -23,6 +36,7 @@
   color: #333;
   transition: all 0.2s ease-in-out;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  white-space: nowrap;
 }
 
 .button:hover {
@@ -38,4 +52,11 @@
 
 .importInput {
   display: none;
+}
+
+@media (max-width: 400px) {
+  .button {
+    font-size: 0.75rem;
+    padding: 0.3rem 0.5rem;
+  }
 }
